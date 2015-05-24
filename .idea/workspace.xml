@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61c62e2-9b0a-4d18-bd00-60b5557f13c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/includes/errors.js" afterPath="$PROJECT_DIR$/client/templates/includes/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/posts/post_edit.html" afterPath="$PROJECT_DIR$/client/templates/posts/post_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/posts/post_edit.js" afterPath="$PROJECT_DIR$/client/templates/posts/post_edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/post_submit.html" afterPath="$PROJECT_DIR$/client/post_submit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/posts/post_submit.js" afterPath="$PROJECT_DIR$/client/templates/posts/post_submit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/posts.js" afterPath="$PROJECT_DIR$/lib/collections/posts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="microscope.iws" />
@@ -44,29 +48,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_item.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <marker date="1432438261000" expanded="true" signature="48:423" placeholder="..." />
-                <marker date="1432438261000" expanded="true" signature="83:327" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_item.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="permissions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/permissions.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.5451128">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/posts/post_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -97,20 +88,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_submit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/posts/post_submit.js">
+      <file leaf-file-name="post_submit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/post_submit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errors.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_submit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/posts/post_submit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/includes/errors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20676692">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
             </state>
@@ -121,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/client/templates/posts/post_edit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,22 +153,22 @@
         <option value="$PROJECT_DIR$/client/templates/posts/post_page.html" />
         <option value="$PROJECT_DIR$/client/templates/application/not_found.html" />
         <option value="$PROJECT_DIR$/client/helpers/config.js" />
-        <option value="$PROJECT_DIR$/client/post_submit.html" />
         <option value="$PROJECT_DIR$/client/templates/includes/access_denied.html" />
         <option value="$PROJECT_DIR$/client/templates/includes/header.html" />
         <option value="$PROJECT_DIR$/client/templates/posts/posts_list.js" />
         <option value="$PROJECT_DIR$/lib/router.js" />
-        <option value="$PROJECT_DIR$/client/templates/posts/post_edit.html" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_item.html" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_item.js" />
         <option value="$PROJECT_DIR$/lib/permissions.js" />
-        <option value="$PROJECT_DIR$/lib/collections/posts.js" />
-        <option value="$PROJECT_DIR$/client/helpers/errors.js" />
         <option value="$PROJECT_DIR$/client/templates/application/layout.html" />
         <option value="$PROJECT_DIR$/client/templates/includes/errors.html" />
-        <option value="$PROJECT_DIR$/client/templates/posts/post_submit.js" />
-        <option value="$PROJECT_DIR$/client/templates/posts/post_edit.js" />
         <option value="$PROJECT_DIR$/client/templates/includes/errors.js" />
+        <option value="$PROJECT_DIR$/client/helpers/errors.js" />
+        <option value="$PROJECT_DIR$/client/post_submit.html" />
+        <option value="$PROJECT_DIR$/client/templates/posts/post_submit.js" />
+        <option value="$PROJECT_DIR$/client/templates/posts/post_edit.html" />
+        <option value="$PROJECT_DIR$/client/templates/posts/post_edit.js" />
+        <option value="$PROJECT_DIR$/lib/collections/posts.js" />
       </list>
     </option>
   </component>
@@ -181,7 +182,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1912" />
     <option name="y" value="23" />
-    <option name="width" value="776" />
+    <option name="width" value="1017" />
     <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -282,7 +283,7 @@
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
-    <property name="SearchEverywhereHistoryKey" value="errors.&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.js&#10;post_edit&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_edit.js&#10;post_submit&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;throw&#9;null&#9;null&#10;errors&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.js&#10;errors.html&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.html&#10;layout.html&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;error&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/errors.js&#10;posts&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/collections/posts.js&#10;permission&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/permissions.js&#10;post_item&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_item.js&#10;router&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/router.js&#10;posts_list&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/posts_list.js&#10;post_subm&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;posts.js&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/collections/posts.js&#10;post_su&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;header&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/header.html&#10;postSu&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;access&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/access_denied.html&#10;post&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;post_submit.js&#9;null&#9;null&#10;post_s&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/post_submit.html&#10;config.js&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/config.js&#10;layou&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;layout&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;config&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/config.js&#10;head&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/header.html&#10;not&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/not_found.html&#10;post_page&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_page.html&#10;main.h&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/main.html&#10;main&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/main.js&#10;pu&#9;FILE&#9;file:///Users/leche/Projects/microscope/server/publications.js&#10;fixtu&#9;FILE&#9;file:///Users/leche/Projects/microscope/server/fixtures.js" />
+    <property name="SearchEverywhereHistoryKey" value="posts.js&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/collections/posts.js&#10;post_edit.js&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_edit.js&#10;post_edit&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_edit.html&#10;post_submi&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;post_submit&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;post&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;posts&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/collections/posts.js&#10;errors.&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.js&#10;throw&#9;null&#9;null&#10;errors&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.js&#10;errors.html&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/errors.html&#10;layout.html&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;error&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/errors.js&#10;permission&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/permissions.js&#10;post_item&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_item.js&#10;router&#9;FILE&#9;file:///Users/leche/Projects/microscope/lib/router.js&#10;posts_list&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/posts_list.js&#10;post_subm&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;post_su&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;header&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/header.html&#10;postSu&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_submit.js&#10;access&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/access_denied.html&#10;post_submit.js&#9;null&#9;null&#10;post_s&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/post_submit.html&#10;config.js&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/config.js&#10;layou&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;layout&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/layout.html&#10;config&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/helpers/config.js&#10;head&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/includes/header.html&#10;not&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/application/not_found.html&#10;post_page&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/templates/posts/post_page.html&#10;main.h&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/main.html&#10;main&#9;FILE&#9;file:///Users/leche/Projects/microscope/client/main.js&#10;pu&#9;FILE&#9;file:///Users/leche/Projects/microscope/server/publications.js&#10;fixtu&#9;FILE&#9;file:///Users/leche/Projects/microscope/server/fixtures.js" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -340,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1912" y="23" width="776" height="1172" extended-state="0" />
+    <frame x="-1912" y="23" width="1017" height="1172" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2842004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -428,8 +429,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1432438261000" expanded="true" signature="48:423" placeholder="..." />
-            <marker date="1432438261000" expanded="true" signature="83:327" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -511,8 +512,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432438261000" expanded="true" signature="48:423" placeholder="..." />
-            <marker date="1432438261000" expanded="true" signature="83:327" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -625,14 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/post_submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/includes/access_denied.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
@@ -665,21 +658,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/posts/post_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <marker date="1432438261000" expanded="true" signature="48:423" placeholder="..." />
-            <marker date="1432438261000" expanded="true" signature="83:327" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432438261000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -700,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/application/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
@@ -724,6 +701,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/includes/errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/helpers/errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -732,10 +717,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/post_submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/posts/post_submit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/posts/post_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -743,15 +744,15 @@
     <entry file="file://$PROJECT_DIR$/client/templates/posts/post_edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/includes/errors.js">
+    <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20676692">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.5451128">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding />
         </state>
       </provider>
